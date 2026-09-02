@@ -43,6 +43,31 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <a
+          href="/privacidade"
+          aria-label="Abrir Privacidade e LGPD"
+          style={{
+            position: "fixed",
+            right: 18,
+            bottom: 18,
+            zIndex: 120,
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 8,
+            padding: "10px 14px",
+            borderRadius: 999,
+            border: "1px solid rgba(5,116,185,.18)",
+            background: "rgba(255,255,255,.94)",
+            color: "#225b8f",
+            boxShadow: "0 10px 30px rgba(6,56,79,.14)",
+            fontSize: 11,
+            fontWeight: 800,
+            textDecoration: "none",
+            backdropFilter: "blur(10px)",
+          }}
+        >
+          Privacidade e LGPD
+        </a>
       </body>
     </html>
   );
