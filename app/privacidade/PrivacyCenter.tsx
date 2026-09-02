@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
+import "./PrivacyCenter.module.css";
 import { createClient, type Session } from "@supabase/supabase-js";
 import {
   ArrowLeft,
